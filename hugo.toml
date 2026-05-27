@@ -1,0 +1,31 @@
+baseURL = "https://neddwyer.com/"
+languageCode = "en-us"
+title = "Ned Dwyer"
+theme = "neddwyer"
+
+enableRobotsTXT = true
+enableEmoji = false
+summaryLength = 30
+
+[params]
+  author = "Ned Dwyer"
+  description = "Australian in San Francisco. Co-founder of Great Question. Writing about rejection, runway, and the long middle of building things."
+  accent = "#e15554"
+  email = "ned@greatquestion.co"
+  twitter = "nedwin"
+  github = "nedwin"
+  linkedin = "neddwyer"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+  style = "github"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[permalinks]
+  posts = "/:slug/"

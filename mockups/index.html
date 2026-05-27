@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>neddwyer.com — color variants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: #2a2a2a;
+      color: #fff;
+    }
+    .pageHeader {
+      padding: 32px 48px;
+      border-bottom: 1px solid #444;
+      position: sticky;
+      top: 0;
+      background: #2a2a2a;
+      z-index: 10;
+    }
+    .pageHeader h1 {
+      margin: 0 0 4px 0;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .pageHeader p {
+      margin: 0;
+      font-size: 13px;
+      color: #aaa;
+    }
+    .variantNav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .variantNav a {
+      font-size: 12px;
+      color: #ddd;
+      text-decoration: none;
+      padding: 4px 10px;
+      border: 1px solid #555;
+      border-radius: 4px;
+    }
+    .variantNav a:hover {
+      border-color: #aaa;
+    }
+    .variantLabel {
+      padding: 24px 48px 8px;
+      font-size: 13px;
+      color: #888;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .variantLabel .swatch {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      vertical-align: middle;
+      margin-right: 8px;
+      border: 1px solid #444;
+    }
+    .variantLabel .meta {
+      color: #666;
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 12px;
+      margin-left: 12px;
+    }
+
+    /* === The actual mockup === */
+    .mockup {
+      margin: 0 48px 48px;
+      border-radius: 6px;
+      overflow: hidden;
+      font-family: 'EB Garamond', Georgia, serif;
+    }
+    .mockupInner {
+      max-width: 100%;
+      padding: 56px 64px 80px;
+    }
+    .mockupInner .topNav {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 64px;
+      font-size: 16px;
+    }
+    .mockupInner .topNav .name {
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .mockupInner .topNav .links {
+      display: flex;
+      gap: 22px;
+    }
+    .mockupInner .topNav a {
+      text-decoration: none;
+    }
+    .mockupInner h2.hero {
+      font-size: 42px;
+      line-height: 1.15;
+      font-weight: 500;
+      margin: 0 0 12px;
+      letter-spacing: -0.01em;
+    }
+    .mockupInner .tagline {
+      font-size: 19px;
+      font-style: italic;
+      margin: 0 0 40px;
+      opacity: 0.75;
+    }
+    .mockupInner .intro {
+      font-size: 19px;
+      line-height: 1.55;
+      max-width: 620px;
+      margin: 0 0 48px;
+    }
+    .mockupInner .intro a {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    .mockupInner h3 {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin: 48px 0 16px;
+      opacity: 0.6;
+      font-family: 'Inter', sans-serif;
+    }
+    .mockupInner .postList {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      max-width: 620px;
+    }
+    .mockupInner .postList li {
+      padding: 12px 0;
+      border-bottom: 1px solid;
+      border-color: rgba(0,0,0,0.08);
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: baseline;
+    }
+    .mockupInner .postList li:last-child {
+      border-bottom: none;
+    }
+    .mockupInner .postList .postTitle {
+      font-size: 19px;
+      text-decoration: none;
+      flex: 1;
+    }
+    .mockupInner .postList .postDate {
+      font-size: 13px;
+      font-family: 'Inter', sans-serif;
+      opacity: 0.5;
+      white-space: nowrap;
+    }
+    .mockupInner .elsewhere {
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+      max-width: 620px;
+      font-size: 16px;
+    }
+    .mockupInner .elsewhere a {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    .mockupInner footer {
+      margin-top: 96px;
+      padding-top: 24px;
+      border-top: 1px solid;
+      border-color: rgba(0,0,0,0.08);
+      font-size: 13px;
+      font-family: 'Inter', sans-serif;
+      opacity: 0.5;
+    }
+
+    /* ====== VARIANT 1: Updated Indigo ====== */
+    .v-indigo {
+      background: #fafaf7;
+      color: #1a1a1a;
+    }
+    .v-indigo a { color: #5b4bd6; }
+    .v-indigo .topNav a { color: #1a1a1a; }
+    .v-indigo .topNav a:hover { color: #5b4bd6; }
+    .v-indigo .postList li { border-color: rgba(26,26,26,0.08); }
+    .v-indigo .postList .postTitle { color: #1a1a1a; }
+    .v-indigo .postList .postTitle:hover { color: #5b4bd6; }
+    .v-indigo footer { border-color: rgba(26,26,26,0.08); }
+
+    /* ====== VARIANT 2: Warm Rust ====== */
+    .v-rust {
+      background: #f5efe6;
+      color: #2a2520;
+    }
+    .v-rust a { color: #b94a30; }
+    .v-rust .topNav a { color: #2a2520; }
+    .v-rust .topNav a:hover { color: #b94a30; }
+    .v-rust .postList li { border-color: rgba(42,37,32,0.10); }
+    .v-rust .postList .postTitle { color: #2a2520; }
+    .v-rust .postList .postTitle:hover { color: #b94a30; }
+    .v-rust footer { border-color: rgba(42,37,32,0.10); }
+
+    /* ====== VARIANT 3: Monochrome ====== */
+    .v-mono {
+      background: #fafaf7;
+      color: #111;
+    }
+    .v-mono a { color: #111; }
+    .v-mono .topNav a { color: #111; }
+    .v-mono .topNav a:hover { opacity: 0.6; }
+    .v-mono .postList li { border-color: rgba(0,0,0,0.08); }
+    .v-mono .postList .postTitle { color: #111; }
+    .v-mono .postList .postTitle:hover { opacity: 0.6; }
+    .v-mono footer { border-color: rgba(0,0,0,0.08); }
+
+    /* ====== VARIANT 4: Ink Navy ====== */
+    .v-ink {
+      background: #faf8f3;
+      color: #14213d;
+    }
+    .v-ink a { color: #1e3a5f; font-weight: 500; }
+    .v-ink .topNav a { color: #14213d; font-weight: 500; }
+    .v-ink .topNav a:hover { color: #1e3a5f; opacity: 0.7; }
+    .v-ink .postList li { border-color: rgba(20,33,61,0.10); }
+    .v-ink .postList .postTitle { color: #14213d; }
+    .v-ink .postList .postTitle:hover { color: #1e3a5f; opacity: 0.7; }
+    .v-ink footer { border-color: rgba(20,33,61,0.10); }
+
+    /* ====== VARIANT 5: Forest ====== */
+    .v-forest {
+      background: #f4f1e8;
+      color: #1f2922;
+    }
+    .v-forest a { color: #2d5a3d; }
+    .v-forest .topNav a { color: #1f2922; }
+    .v-forest .topNav a:hover { color: #2d5a3d; }
+    .v-forest .postList li { border-color: rgba(31,41,34,0.10); }
+    .v-forest .postList .postTitle { color: #1f2922; }
+    .v-forest .postList .postTitle:hover { color: #2d5a3d; }
+    .v-forest footer { border-color: rgba(31,41,34,0.10); }
+
+    /* ====== VARIANT 6: Coral ====== */
+    .v-coral {
+      background: #faf7f5;
+      color: #1f1814;
+    }
+    .v-coral a { color: #e15554; }
+    .v-coral .topNav a { color: #1f1814; }
+    .v-coral .topNav a:hover { color: #e15554; }
+    .v-coral .postList li { border-color: rgba(31,24,20,0.08); }
+    .v-coral .postList .postTitle { color: #1f1814; }
+    .v-coral .postList .postTitle:hover { color: #e15554; }
+    .v-coral footer { border-color: rgba(31,24,20,0.08); }
+
+    /* ====== VARIANT 7: Dark mode (bonus) ====== */
+    .v-dark {
+      background: #14171a;
+      color: #d4d0c8;
+    }
+    .v-dark a { color: #e8a87c; }
+    .v-dark .topNav a { color: #d4d0c8; }
+    .v-dark .topNav a:hover { color: #e8a87c; }
+    .v-dark .postList li { border-color: rgba(212,208,200,0.12); }
+    .v-dark .postList .postTitle { color: #d4d0c8; }
+    .v-dark .postList .postTitle:hover { color: #e8a87c; }
+    .v-dark footer { border-color: rgba(212,208,200,0.12); }
+    .v-dark h3 { opacity: 0.5; }
+  </style>
+</head>
+<body>
+
+<div class="pageHeader">
+  <h1>neddwyer.com — accent color exploration</h1>
+  <p>Same content, seven palettes. Click a label to jump.</p>
+  <div class="variantNav">
+    <a href="#v1">1 · Updated indigo</a>
+    <a href="#v2">2 · Warm rust</a>
+    <a href="#v3">3 · Monochrome</a>
+    <a href="#v4">4 · Ink navy</a>
+    <a href="#v5">5 · Forest</a>
+    <a href="#v6">6 · Coral</a>
+    <a href="#v7">7 · Dark mode</a>
+  </div>
+</div>
+
+<!-- V1: Indigo -->
+<div class="variantLabel" id="v1">
+  <span class="swatch" style="background:#5b4bd6"></span>1 · Updated indigo
+  <span class="meta">#5b4bd6 on #fafaf7 — continuity with the original neddwyer.com purple, modernized</span>
+</div>
+<div class="mockup v-indigo">
+  <div class="mockupInner">
+    <nav class="topNav">
+      <span class="name">Ned Dwyer</span>
+      <span class="links">
+        <a href="#">Writing</a>
+        <a href="#">About</a>
+        <a href="#">Now</a>
+        <a href="#">Elsewhere</a>
+      </span>
+    </nav>
+    <h2 class="hero">Ned Dwyer</h2>
+    <p class="tagline">Australian in San Francisco. Founder, runner, husband.</p>
+    <p class="intro">
+      I co-founded <a href="https://greatquestion.co">Great Question</a>, where we're building a UX research platform used by teams at Canva, Notion, Intuit and a couple of hundred others. Before that I built <a href="#">Elto</a>, a marketplace for freelance web developers, which was acquired by GoDaddy in 2015.
+      I write here when I have something worth saying — most of it ends up being about rejection, runway, and the long middle of building things.
+    </p>
+    <h3>Recent writing</h3>
+    <ul class="postList">
+      <li><a href="#" class="postTitle">Seek rejection</a><span class="postDate">Aug 2011</span></li>
+      <li><a href="#" class="postTitle">Managing your psychological runway</a><span class="postDate">Jun 2015</span></li>
+      <li><a href="#" class="postTitle">19 things I've done</a><span class="postDate">Sep 2017</span></li>
+      <li><a href="#" class="postTitle">The grand theory of customer validation</a><span class="postDate">Aug 2018</span></li>
+      <li><a href="#" class="postTitle">Seed-stage investor update template</a><span class="postDate">Aug 2022</span></li>
+    </ul>
+    <h3>Elsewhere</h3>
+    <div class="elsewhere">
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+    </div>
+    <footer>© 2026 · San Francisco</footer>
+  </div>
+</div>
+
+<!-- V2: Rust -->
+<div class="variantLabel" id="v2">
+  <span class="swatch" style="background:#b94a30"></span>2 · Warm rust
+  <span class="meta">#b94a30 on #f5efe6 — paper-toned, literary, pairs richly with Garamond</span>
+</div>
+<div class="mockup v-rust">
+  <div class="mockupInner">
+    <nav class="topNav">
+      <span class="name">Ned Dwyer</span>
+      <span class="links">
+        <a href="#">Writing</a>
+        <a href="#">About</a>
+        <a href="#">Now</a>
+        <a href="#">Elsewhere</a>
+      </span>
+    </nav>
+    <h2 class="hero">Ned Dwyer</h2>
+    <p class="tagline">Australian in San Francisco. Founder, runner, husband.</p>
+    <p class="intro">
+      I co-founded <a href="https://greatquestion.co">Great Question</a>, where we're building a UX research platform used by teams at Canva, Notion, Intuit and a couple of hundred others. Before that I built <a href="#">Elto</a>, a marketplace for freelance web developers, which was acquired by GoDaddy in 2015.
+      I write here when I have something worth saying — most of it ends up being about rejection, runway, and the long middle of building things.
+    </p>
+    <h3>Recent writing</h3>
+    <ul class="postList">
+      <li><a href="#" class="postTitle">Seek rejection</a><span class="postDate">Aug 2011</span></li>
+      <li><a href="#" class="postTitle">Managing your psychological runway</a><span class="postDate">Jun 2015</span></li>
+      <li><a href="#" class="postTitle">19 things I've done</a><span class="postDate">Sep 2017</span></li>
+      <li><a href="#" class="postTitle">The grand theory of customer validation</a><span class="postDate">Aug 2018</span></li>
+      <li><a href="#" class="postTitle">Seed-stage investor update template</a><span class="postDate">Aug 2022</span></li>
+    </ul>
+    <h3>Elsewhere</h3>
+    <div class="elsewhere">
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+    </div>
+    <footer>© 2026 · San Francisco</footer>
+  </div>
+</div>
+
+<!-- V3: Mono -->
+<div class="variantLabel" id="v3">
+  <span class="swatch" style="background:#111"></span>3 · Monochrome
+  <span class="meta">No accent — type does all the work. Most restrained, most editorial.</span>
+</div>
+<div class="mockup v-mono">
+  <div class="mockupInner">
+    <nav class="topNav">
+      <span class="name">Ned Dwyer</span>
+      <span class="links">
+        <a href="#">Writing</a>
+        <a href="#">About</a>
+        <a href="#">Now</a>
+        <a href="#">Elsewhere</a>
+      </span>
+    </nav>
+    <h2 class="hero">Ned Dwyer</h2>
+    <p class="tagline">Australian in San Francisco. Founder, runner, husband.</p>
+    <p class="intro">
+      I co-founded <a href="https://greatquestion.co">Great Question</a>, where we're building a UX research platform used by teams at Canva, Notion, Intuit and a couple of hundred others. Before that I built <a href="#">Elto</a>, a marketplace for freelance web developers, which was acquired by GoDaddy in 2015.
+      I write here when I have something worth saying — most of it ends up being about rejection, runway, and the long middle of building things.
+    </p>
+    <h3>Recent writing</h3>
+    <ul class="postList">
+      <li><a href="#" class="postTitle">Seek rejection</a><span class="postDate">Aug 2011</span></li>
+      <li><a href="#" class="postTitle">Managing your psychological runway</a><span class="postDate">Jun 2015</span></li>
+      <li><a href="#" class="postTitle">19 things I've done</a><span class="postDate">Sep 2017</span></li>
+      <li><a href="#" class="postTitle">The grand theory of customer validation</a><span class="postDate">Aug 2018</span></li>
+      <li><a href="#" class="postTitle">Seed-stage investor update template</a><span class="postDate">Aug 2022</span></li>
+    </ul>
+    <h3>Elsewhere</h3>
+    <div class="elsewhere">
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+    </div>
+    <footer>© 2026 · San Francisco</footer>
+  </div>
+</div>
+
+<!-- V4: Ink -->
+<div class="variantLabel" id="v4">
+  <span class="swatch" style="background:#1e3a5f"></span>4 · Ink navy
+  <span class="meta">#1e3a5f on #faf8f3 — quiet, classical, ages well</span>
+</div>
+<div class="mockup v-ink">
+  <div class="mockupInner">
+    <nav class="topNav">
+      <span class="name">Ned Dwyer</span>
+      <span class="links">
+        <a href="#">Writing</a>
+        <a href="#">About</a>
+        <a href="#">Now</a>
+        <a href="#">Elsewhere</a>
+      </span>
+    </nav>
+    <h2 class="hero">Ned Dwyer</h2>
+    <p class="tagline">Australian in San Francisco. Founder, runner, husband.</p>
+    <p class="intro">
+      I co-founded <a href="https://greatquestion.co">Great Question</a>, where we're building a UX research platform used by teams at Canva, Notion, Intuit and a couple of hundred others. Before that I built <a href="#">Elto</a>, a marketplace for freelance web developers, which was acquired by GoDaddy in 2015.
+      I write here when I have something worth saying — most of it ends up being about rejection, runway, and the long middle of building things.
+    </p>
+    <h3>Recent writing</h3>
+    <ul class="postList">
+      <li><a href="#" class="postTitle">Seek rejection</a><span class="postDate">Aug 2011</span></li>
+      <li><a href="#" class="postTitle">Managing your psychological runway</a><span class="postDate">Jun 2015</span></li>
+      <li><a href="#" class="postTitle">19 things I've done</a><span class="postDate">Sep 2017</span></li>
+      <li><a href="#" class="postTitle">The grand theory of customer validation</a><span class="postDate">Aug 2018</span></li>
+      <li><a href="#" class="postTitle">Seed-stage investor update template</a><span class="postDate">Aug 2022</span></li>
+    </ul>
+    <h3>Elsewhere</h3>
+    <div class="elsewhere">
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+    </div>
+    <footer>© 2026 · San Francisco</footer>
+  </div>
+</div>
+
+<!-- V5: Forest -->
+<div class="variantLabel" id="v5">
+  <span class="swatch" style="background:#2d5a3d"></span>5 · Forest
+  <span class="meta">#2d5a3d on #f4f1e8 — calm, grounded, slightly bookish</span>
+</div>
+<div class="mockup v-forest">
+  <div class="mockupInner">
+    <nav class="topNav">
+      <span class="name">Ned Dwyer</span>
+      <span class="links">
+        <a href="#">Writing</a>
+        <a href="#">About</a>
+        <a href="#">Now</a>
+        <a href="#">Elsewhere</a>
+      </span>
+    </nav>
+    <h2 class="hero">Ned Dwyer</h2>
+    <p class="tagline">Australian in San Francisco. Founder, runner, husband.</p>
+    <p class="intro">
+      I co-founded <a href="https://greatquestion.co">Great Question</a>, where we're building a UX research platform used by teams at Canva, Notion, Intuit and a couple of hundred others. Before that I built <a href="#">Elto</a>, a marketplace for freelance web developers, which was acquired by GoDaddy in 2015.
+      I write here when I have something worth saying — most of it ends up being about rejection, runway, and the long middle of building things.
+    </p>
+    <h3>Recent writing</h3>
+    <ul class="postList">
+      <li><a href="#" class="postTitle">Seek rejection</a><span class="postDate">Aug 2011</span></li>
+      <li><a href="#" class="postTitle">Managing your psychological runway</a><span class="postDate">Jun 2015</span></li>
+      <li><a href="#" class="postTitle">19 things I've done</a><span class="postDate">Sep 2017</span></li>
+      <li><a href="#" class="postTitle">The grand theory of customer validation</a><span class="postDate">Aug 2018</span></li>
+      <li><a href="#" class="postTitle">Seed-stage investor update template</a><span class="postDate">Aug 2022</span></li>
+    </ul>
+    <h3>Elsewhere</h3>
+    <div class="elsewhere">
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+    </div>
+    <footer>© 2026 · San Francisco</footer>
+  </div>
+</div>
+
+<!-- V6: Coral -->
+<div class="variantLabel" id="v6">
+  <span class="swatch" style="background:#e15554"></span>6 · Coral
+  <span class="meta">#e15554 on #faf7f5 — warm, alive, slightly playful</span>
+</div>
+<div class="mockup v-coral">
+  <div class="mockupInner">
+    <nav class="topNav">
+      <span class="name">Ned Dwyer</span>
+      <span class="links">
+        <a href="#">Writing</a>
+        <a href="#">About</a>
+        <a href="#">Now</a>
+        <a href="#">Elsewhere</a>
+      </span>
+    </nav>
+    <h2 class="hero">Ned Dwyer</h2>
+    <p class="tagline">Australian in San Francisco. Founder, runner, husband.</p>
+    <p class="intro">
+      I co-founded <a href="https://greatquestion.co">Great Question</a>, where we're building a UX research platform used by teams at Canva, Notion, Intuit and a couple of hundred others. Before that I built <a href="#">Elto</a>, a marketplace for freelance web developers, which was acquired by GoDaddy in 2015.
+      I write here when I have something worth saying — most of it ends up being about rejection, runway, and the long middle of building things.
+    </p>
+    <h3>Recent writing</h3>
+    <ul class="postList">
+      <li><a href="#" class="postTitle">Seek rejection</a><span class="postDate">Aug 2011</span></li>
+      <li><a href="#" class="postTitle">Managing your psychological runway</a><span class="postDate">Jun 2015</span></li>
+      <li><a href="#" class="postTitle">19 things I've done</a><span class="postDate">Sep 2017</span></li>
+      <li><a href="#" class="postTitle">The grand theory of customer validation</a><span class="postDate">Aug 2018</span></li>
+      <li><a href="#" class="postTitle">Seed-stage investor update template</a><span class="postDate">Aug 2022</span></li>
+    </ul>
+    <h3>Elsewhere</h3>
+    <div class="elsewhere">
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+    </div>
+    <footer>© 2026 · San Francisco</footer>
+  </div>
+</div>
+
+<!-- V7: Dark mode -->
+<div class="variantLabel" id="v7">
+  <span class="swatch" style="background:#e8a87c"></span>7 · Dark mode (warm amber on ink)
+  <span class="meta">#e8a87c on #14171a — for the contrarians. Quiet evening read energy.</span>
+</div>
+<div class="mockup v-dark">
+  <div class="mockupInner">
+    <nav class="topNav">
+      <span class="name">Ned Dwyer</span>
+      <span class="links">
+        <a href="#">Writing</a>
+        <a href="#">About</a>
+        <a href="#">Now</a>
+        <a href="#">Elsewhere</a>
+      </span>
+    </nav>
+    <h2 class="hero">Ned Dwyer</h2>
+    <p class="tagline">Australian in San Francisco. Founder, runner, husband.</p>
+    <p class="intro">
+      I co-founded <a href="https://greatquestion.co">Great Question</a>, where we're building a UX research platform used by teams at Canva, Notion, Intuit and a couple of hundred others. Before that I built <a href="#">Elto</a>, a marketplace for freelance web developers, which was acquired by GoDaddy in 2015.
+      I write here when I have something worth saying — most of it ends up being about rejection, runway, and the long middle of building things.
+    </p>
+    <h3>Recent writing</h3>
+    <ul class="postList">
+      <li><a href="#" class="postTitle">Seek rejection</a><span class="postDate">Aug 2011</span></li>
+      <li><a href="#" class="postTitle">Managing your psychological runway</a><span class="postDate">Jun 2015</span></li>
+      <li><a href="#" class="postTitle">19 things I've done</a><span class="postDate">Sep 2017</span></li>
+      <li><a href="#" class="postTitle">The grand theory of customer validation</a><span class="postDate">Aug 2018</span></li>
+      <li><a href="#" class="postTitle">Seed-stage investor update template</a><span class="postDate">Aug 2022</span></li>
+    </ul>
+    <h3>Elsewhere</h3>
+    <div class="elsewhere">
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+    </div>
+    <footer>© 2026 · San Francisco</footer>
+  </div>
+</div>
+
+</body>
+</html>

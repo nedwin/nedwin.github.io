@@ -1,0 +1,9 @@
+<nav class="topNav">
+  <a href="{{ "/" | absURL }}" class="brand">Ned Dwyer</a>
+  <span class="links">
+    <a href="{{ "/posts/" | absURL }}"{{ if or (eq .Section "posts") (eq .RelPermalink "/posts/") }} class="active"{{ end }}>Writing</a>
+    <a href="{{ "/about/" | absURL }}"{{ if eq .RelPermalink "/about/" }} class="active"{{ end }}>About</a>
+    <a href="{{ "/now/" | absURL }}"{{ if eq .RelPermalink "/now/" }} class="active"{{ end }}>Now</a>
+    <a href="{{ "/elsewhere/" | absURL }}"{{ if eq .RelPermalink "/elsewhere/" }} class="active"{{ end }}>Elsewhere</a>
+  </span>
+</nav>

@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section class="hero">
+  <h1>Ned Dwyer</h1>
+  <p class="tagline">Australian in San Francisco. Founder, runner, husband.</p>
+  <div class="intro">
+    {{ .Content }}
+  </div>
+</section>
+
+<section class="postsList">
+  <h2 class="sectionHeading">Recent writing</h2>
+  <ul class="postList">
+    {{ range first 8 (where .Site.RegularPages "Section" "posts") }}
+      <li>
+        <a href="{{ .RelPermalink }}" class="postTitle">{{ .Title }}</a>
+        <span class="postDate">{{ .Date.Format "Jan 2006" }}</span>
+      </li>
+    {{ end }}
+  </ul>
+  {{ if gt (len (where .Site.RegularPages "Section" "posts")) 8 }}
+    <p class="moreLink"><a href="/posts/">All writing →</a></p>
+  {{ end }}
+</section>
+
+<section class="elsewhere">
+  <h2 class="sectionHeading">Elsewhere</h2>
+  <div class="elsewhereLinks">
+    <a href="https://twitter.com/{{ .Site.Params.twitter }}">Twitter</a>
+    <a href="https://github.com/{{ .Site.Params.github }}">GitHub</a>
+    <a href="https://www.linkedin.com/in/{{ .Site.Params.linkedin }}">LinkedIn</a>
+    <a href="mailto:{{ .Site.Params.email }}">Email</a>
+  </div>
+</section>
+{{ end }}

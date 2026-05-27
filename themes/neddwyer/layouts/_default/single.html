@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="post">
+  <header class="postHeader">
+    <h1>{{ .Title }}</h1>
+    {{ if .Date }}
+      <p class="postMeta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ with .Params.canonical_url }} · <a href="{{ . }}" class="canonical">originally on Medium</a>{{ end }}
+      </p>
+    {{ end }}
+  </header>
+  <div class="postBody">
+    {{ .Content }}
+  </div>
+  {{ if .Params.canonical_url }}
+    <footer class="postFooter">
+      <p>This post was originally published <a href="{{ .Params.canonical_url }}">on Medium</a>.</p>
+    </footer>
+  {{ end }}
+</article>
+{{ end }}
