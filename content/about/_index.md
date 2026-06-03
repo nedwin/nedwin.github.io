@@ -3,7 +3,7 @@ title = "About"
 description = "Australian in San Francisco. Co-founder of Great Question. Husband. Runner."
 +++
 
-I'm Ned Dwyer. I co-founded [Great Question](https://greatquestion.co), a UX research platform used by teams at Canva, Notion, Intuit and a few hundred other companies. We raised a Series A in late 2025 and we're rebuilding the whole product for the AI-native era. It's the most fun I've had at work.
+I'm Ned Dwyer. I co-founded [Great Question](https://greatquestion.co), a UX research platform used by teams at Canva, Amazon, Intuit and a few hundred other companies. We [raised a Series A](https://greatquestion.co/blog/series-a) in late 2025 and we're rebuilding the whole product for the AI-native era. It's the most fun I've had at work.
 
 Before this I founded Elto, a marketplace for freelance web developers, which was [acquired by GoDaddy](https://techcrunch.com/2015/04/10/godaddy-acquires-elto-marketplace-for-web-pros/) in 2015. Before *that* I ran a small digital agency in Melbourne called Native Digital. I'm Australian, I've been in San Francisco since 2014, and the move was meant to be temporary.
 
