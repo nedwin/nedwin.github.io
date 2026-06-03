@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{ $pages := .Pages.ByDate.Reverse }}
+{{ if or (gt (len $pages) 0) (not .Content) }}
 <section class="listSection">
   <header class="listHeader">
     <h1>{{ .Title }}</h1>
@@ -7,12 +9,22 @@
     {{ end }}
   </header>
   <ul class="postList">
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range $pages }}
       <li>
         <a href="{{ .RelPermalink }}" class="postTitle">{{ .Title }}</a>
-        <span class="postDate">{{ .Date.Format "Jan 2006" }}</span>
+        {{ if not .Date.IsZero }}<span class="postDate">{{ .Date.Format "Jan 2006" }}</span>{{ end }}
       </li>
     {{ end }}
   </ul>
 </section>
+{{ else }}
+<article class="page">
+  <header class="pageHeader">
+    <h1>{{ .Title }}</h1>
+  </header>
+  <div class="pageBody">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
 {{ end }}

@@ -1,9 +1,13 @@
-<nav class="topNav">
+{{ $isWriting := or (eq .Section "posts") (eq .RelPermalink "/posts/") }}
+{{ $isAbout := eq .RelPermalink "/about/" }}
+{{ $isNow := eq .RelPermalink "/now/" }}
+{{ $isElsewhere := eq .RelPermalink "/elsewhere/" }}
+<nav class="topNav" aria-label="Primary">
   <a href="{{ "/" | absURL }}" class="brand">Ned Dwyer</a>
   <span class="links">
-    <a href="{{ "/posts/" | absURL }}"{{ if or (eq .Section "posts") (eq .RelPermalink "/posts/") }} class="active"{{ end }}>Writing</a>
-    <a href="{{ "/about/" | absURL }}"{{ if eq .RelPermalink "/about/" }} class="active"{{ end }}>About</a>
-    <a href="{{ "/now/" | absURL }}"{{ if eq .RelPermalink "/now/" }} class="active"{{ end }}>Now</a>
-    <a href="{{ "/elsewhere/" | absURL }}"{{ if eq .RelPermalink "/elsewhere/" }} class="active"{{ end }}>Elsewhere</a>
+    <a href="{{ "/posts/" | absURL }}"{{ if $isWriting }} class="active" aria-current="page"{{ end }}>Writing</a>
+    <a href="{{ "/about/" | absURL }}"{{ if $isAbout }} class="active" aria-current="page"{{ end }}>About</a>
+    <a href="{{ "/now/" | absURL }}"{{ if $isNow }} class="active" aria-current="page"{{ end }}>Now</a>
+    <a href="{{ "/elsewhere/" | absURL }}"{{ if $isElsewhere }} class="active" aria-current="page"{{ end }}>Elsewhere</a>
   </span>
 </nav>

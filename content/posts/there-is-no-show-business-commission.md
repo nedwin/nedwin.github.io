@@ -44,5 +44,3 @@ Cofounders came out of the woodwork once I could demonstrate the progress I’d 
 And an idea that initially seemed like a small business got me closer to customers to discover much bigger opportunities in adjacent spaces.
 
 If I’d waited for the Show Business Commission, or the Startup Commission, I would still be in the same place. Another random guy with an idea seeking external validation without putting in the work.
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=ae8b34f9a8f0)

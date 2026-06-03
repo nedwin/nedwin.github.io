@@ -11,14 +11,15 @@
 <section class="postsList">
   <h2 class="sectionHeading">Recent writing</h2>
   <ul class="postList">
-    {{ range first 8 (where .Site.RegularPages "Section" "posts") }}
+    {{ $posts := where .Site.RegularPages.ByDate.Reverse "Section" "posts" }}
+    {{ range first 8 $posts }}
       <li>
         <a href="{{ .RelPermalink }}" class="postTitle">{{ .Title }}</a>
-        <span class="postDate">{{ .Date.Format "Jan 2006" }}</span>
+        {{ if not .Date.IsZero }}<span class="postDate">{{ .Date.Format "Jan 2006" }}</span>{{ end }}
       </li>
     {{ end }}
   </ul>
-  {{ if gt (len (where .Site.RegularPages "Section" "posts")) 8 }}
+  {{ if gt (len $posts) 8 }}
     <p class="moreLink"><a href="/posts/">All writing →</a></p>
   {{ end }}
 </section>

@@ -40,5 +40,3 @@ They’re not just here to make a record. They want to have an impact. It’s in
 > “It’s not only his talent that took him to the top, it’s his focus.”
 
 There is a ton more detail on the Dissect Podcast which also quotes heavily from the [Complex article](http://www.complex.com/music/2010/11/kanye-west-project-runaway) around the time of the albums release.
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=73d4c7c409b0)

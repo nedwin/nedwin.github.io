@@ -120,7 +120,3 @@ The reality is there are a lot of businesses in the world who need websites, jus
 The risk of large companies — including those you work with and support — competing with you isn’t new. And it isn’t unexpected. Those who will survive will focus on finding their niche, cultivating a community around them and continuing to deliver bespoke service: delivering their offering in a way that no large company is capable of doing.
 
 This post originally appeared at blog.spritz.works [link broken as of June 2026]
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=383ce6105dbf)
-
-[What the Quickbooks Accounting community can learn from GoDaddy Pro](https://medium.com/spritz/what-the-quickbooks-accounting-community-can-learn-from-godaddy-pro-383ce6105dbf) was originally published in [Spritz](https://medium.com/spritz) on Medium, where people are continuing the conversation by highlighting and responding to this story.

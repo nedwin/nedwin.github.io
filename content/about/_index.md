@@ -24,6 +24,15 @@ Off-hours: married to Megan, family in Melbourne, long runs in the Presidio, and
 
 ## Ideas I think about
 
+### Current
+
+- How to build community in modern times
+- How to resolve the housing crisis
+- Leveraging AI to make government more efficient
+- AI-resistant startup opportunities for non-technical folks
+
+### Archived
+
 - Safety nets for the soon-to-be-automated workforce
 - Universal warranties
 - Mobile operating systems for small business owners
@@ -53,7 +62,7 @@ Off-hours: married to Megan, family in Melbourne, long runs in the Presidio, and
 
 ## How to reach me
 
-- Email: <a href="mailto:ned@greatquestion.co">ned@greatquestion.co</a>
+- Email: [ned@greatquestion.co](mailto:ned@greatquestion.co)
 - Twitter: [@nedwin](https://twitter.com/nedwin)
 - LinkedIn: [neddwyer](https://www.linkedin.com/in/neddwyer)
 - GitHub: [nedwin](https://github.com/nedwin)

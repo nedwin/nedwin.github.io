@@ -36,7 +36,3 @@ It’s free to sign up for your first card to try it out, and priced to make it 
 Check out our website and [signup here](https://spritz.works/).
 
 Ned & Tim & the [Spritz team](https://spritz.works/team)
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=329e25244adb)
-
-[Welcome Spritz — the world’s most refreshing corporate card](https://medium.com/spritz/welcome-spritz-the-worlds-most-refreshing-corporate-card-329e25244adb) was originally published in [Spritz](https://medium.com/spritz) on Medium, where people are continuing the conversation by highlighting and responding to this story.

@@ -91,5 +91,3 @@ Starting a new company from scratch is incredibly difficult, and very few succe
 By finding existing large markets, and identifying a single point of innovation or a niche to service, startup companies can build profitable businesses without the headaches of starting from scratch.
 
 There are no prizes for creating something no one has ever thought of before. There are plenty of prizes for solving old problems in new ways.
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=8dc124238ba2)

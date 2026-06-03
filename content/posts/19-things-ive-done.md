@@ -50,5 +50,3 @@ Those with an asterisk* were working for myself. I’ve omitted all of the ones 
 Right now I’m on sabbatical, taking time out to figure what I’m going to do next and where I can make the most impact.
 
 I’m looking forward to adding #21 to the list.
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=28bf47fc3165)

@@ -2,7 +2,7 @@
 title = "The Grand Theory Of Customer Validation"
 slug = "grand-theory-of-customer-validation"
 date = 2018-08-20T17:54:03+00:00
-description = "Talking to customers is a critical factor in building a successful company. It’s never more important than when you’re just getting started and still pre-product/market fit. All of the secondary resea..."
+description = "Talking to customers is a critical factor in building a successful company. It’s never more important than when you’re just getting started and still pre-product/market fit."
 tags = []
 canonical_url = "https://nedwin.medium.com/my-grand-theory-of-customer-validation-63136d1de814"
 +++
@@ -44,5 +44,3 @@ Each step takes you closer to in/validation.
 All for a grand.
 
 Money well spent.
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=63136d1de814)

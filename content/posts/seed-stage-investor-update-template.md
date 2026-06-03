@@ -230,5 +230,3 @@ As the list grow, and we had more folks with skin in the game we started to get 
 The whole thing takes me about an hour or two a month but has been one of the higher leverage ways I’ve found to spend my time.
 
 If you end up using the template, or have suggestions on how it might be improved, I’d love to hear from you: ned@greatquestion.co
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=978fe0107d05)

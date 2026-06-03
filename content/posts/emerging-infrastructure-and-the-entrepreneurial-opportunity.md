@@ -76,15 +76,3 @@ The first is “What emerging infrastructure can I leverage to build a billion d
 The second way to look at this is “What emerging infrastructure can I build to empower a small team to build a billion dollar company upon?”
 
 Thanks to Ozan Nova who provided the inspiration for this post over pastries when I was first searching for my next project.
-
-[
-
-![](https://cdn-images-1.medium.com/max/1024/1*f2IVAl0TbsfES9cFGYr40g.png)
-
-](https://usejournal.com/?utm_source=medium.com&utm_medium=noteworthy_blog&utm_campaign=guest_post_image)
-
-📝 Read this story later in [Journal](https://usejournal.com/?utm_source=medium.com&utm_medium=noteworthy_blog&utm_campaign=guest_post_read_later_text).
-
-🗞 Wake up every Sunday morning to the week’s most noteworthy Tech stories, opinions, and news waiting in your inbox: [Get the noteworthy newsletter >](https://usejournal.com/newsletter/?utm_source=medium.com&utm_medium=noteworthy_blog&utm_campaign=guest_post_text)
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=99817f9eba93)
