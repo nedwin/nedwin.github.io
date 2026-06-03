@@ -55,7 +55,7 @@ Hims was able to launch in large part by leveraging the [TruePill](https://truep
 
 Within a year the company has been [valued at $1bn+](https://techcrunch.com/2019/01/28/wellness-startup-hims-enters-the-unicorn-club-with-100m-investment/) with $200m raised and have gone on to launch a complementary brand for women called Hers.
 
-We launched [Spritz](https://spritz.works.) late last year as a way to eliminate the need for expense reports, and to empower teams to spend what they needed without breaking the rules. We leverage a smart corporate card on the Visa network which codifies your expense policy into the card itself.
+We launched [Spritz](https://spritz.works) late last year as a way to eliminate the need for expense reports, and to empower teams to spend what they needed without breaking the rules. We leverage a smart corporate card on the Visa network which codifies your expense policy into the card itself.
 
 The result feels like magic: no more expense reports, no more employees feeling like a line of credit to the business, and instant data for finance teams to be able to do their job.
 

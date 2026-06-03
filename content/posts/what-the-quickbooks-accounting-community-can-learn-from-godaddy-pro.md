@@ -79,7 +79,7 @@ This brings to the third challenge for us…
 
 #### How do you balance need for revenue with a customers need for a specific service?
 
-At the end of the day GoDaddy had to balance what a customer wanted — a custom website, built by a Pro, ideally in their local area — with the need for the company to generate revenue. This was most acutely felt in meetings where we had to decide if a particular channel (like the main banner at [GoDaddy.com](http://GoDaddy.com), or a promotional email) would promote the Web Pro marketplace or the professional web services product.
+At the end of the day GoDaddy had to balance what a customer wanted — a custom website, built by a Pro, ideally in their local area — with the need for the company to generate revenue. This was most acutely felt in meetings where we had to decide if a particular channel (like the main banner at [GoDaddy.com](https://godaddy.com), or a promotional email) would promote the Web Pro marketplace or the professional web services product.
 
 The decision sometimes came to what was in the interests of the customer, but more often than not it was down to which channel was likely to generate the most revenue.
 
@@ -119,7 +119,7 @@ The reality is there are a lot of businesses in the world who need websites, jus
 
 The risk of large companies — including those you work with and support — competing with you isn’t new. And it isn’t unexpected. Those who will survive will focus on finding their niche, cultivating a community around them and continuing to deliver bespoke service: delivering their offering in a way that no large company is capable of doing.
 
-This post originally appeared here [blog.spritz.works](https://blog.spritz.works/2019/02/28/what-intuit-proadvisors-can-learn-about-quickbooks-live-from-the-godaddy-pro-launch)
+This post originally appeared at blog.spritz.works [link broken as of June 2026]
 
 ![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=383ce6105dbf)
 

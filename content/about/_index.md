@@ -7,7 +7,7 @@ I'm Ned Dwyer. I co-founded [Great Question](https://greatquestion.co), a UX res
 
 Before this I founded Elto, a marketplace for freelance web developers, which was [acquired by GoDaddy](https://techcrunch.com/2015/04/10/godaddy-acquires-elto-marketplace-for-web-pros/) in 2015. Before *that* I ran a small digital agency in Melbourne called Native Digital. I'm Australian, I've been in San Francisco since 2014, and the move was meant to be temporary.
 
-Off-hours: married to Megan, family in Melbourne, long runs in the Presidio, and a steady appetite for the kind of writing that doesn't have an obvious place to publish itself — which is partly why this site exists.
+Off-hours: married to Megan, family in Melbourne, long runs in the Presidio, and a steady appetite for the kind of writing that doesn't have an obvious place to publish itself. That's partly why this site exists.
 
 ## Currently working on
 
@@ -40,7 +40,7 @@ Off-hours: married to Megan, family in Melbourne, long runs in the Presidio, and
 
 ## Random things I've built
 
-- [brb.life](https://brb.life) — a Slack bot for tracking who is out of the office
+- brb.life — a Slack bot for tracking who is out of the office [link broken as of June 2026]
 - Booooooooooom.com
 - Duuuuuude.com
 - Dampcats.com (RIP)

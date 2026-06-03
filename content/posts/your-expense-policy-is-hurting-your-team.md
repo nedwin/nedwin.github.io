@@ -69,7 +69,7 @@ The product is live today and you can issue your first virtual or physical corpo
 
 We’re currently building a more equitable expense policy generator that can be used by anyone, whether or not you’re a customer of ours. If you’re open to being a part of the beta drop me a line at [ned@spritz.works](mailto:ned@spritz.works).
 
-This post originally appeared here [blog.spritz.works](https://blog.spritz.works/2019/03/06/your-expense-policy-is-hurting-your-team)
+This post originally appeared at blog.spritz.works [link broken as of June 2026]
 
 ![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=c6dca4100383)
 

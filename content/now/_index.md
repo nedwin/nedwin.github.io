@@ -3,21 +3,21 @@ title = "Now"
 description = "What I'm working on right now."
 +++
 
-*Updated May 2026. Inspired by [/now pages](https://nownownow.com/about). The [2018 version is here](/now-archive/).*
+*Updated May 2026. Inspired by [/now pages](https://nownownow.com/about). The [2018 version is here](/now-archive-2018.html).*
 
 ## Work
 
 We closed a $13M Series A for [Great Question](https://greatquestion.co) in late 2025 and we're rebuilding the product for the AI-native era — research workflows where the boring parts run themselves and the human stays in the seat for the parts that matter. This is the most fun I've had at work since the early days of Elto.
 
-I'm spending most of my time on the rebuild, with our customers, and with the team. The rest is on growth — turning the Series A motion into a real go-to-market machine.
+I'm spending most of my time on the rebuild, with our customers, and with the team. The rest is on growth: turning the Series A motion into a real go-to-market machine.
 
 ## Family
 
-Still married to Megan. Still in San Francisco. The plan to "stay a few more years" from 2018 has somehow turned into 12 years, which is roughly half a decade longer than we said. Melbourne calls a few times a year — nieces and a nephew growing up too quickly.
+Still married to Megan. Still in San Francisco. The plan to "stay a few more years" from 2018 has somehow turned into 12 years, which is roughly half a decade longer than we said. Melbourne calls a few times a year. Nieces and a nephew growing up too quickly.
 
 ## Body
 
-Running, slowly. The Presidio loop most weekdays. Working back up to a marathon — TBD which one.
+Running, slowly. The Presidio loop most weekdays. Working back up to a marathon (TBD which one).
 
 ## Reading
 
