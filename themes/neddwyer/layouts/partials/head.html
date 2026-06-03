@@ -1,8 +1,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {{ $description := .Description | default .Site.Params.description }}
+{{/* Canonical always points at neddwyer.com — the canonical_url frontmatter
+     is kept for the visible "originally on Medium" attribution link in
+     single.html, but should NOT override the SEO canonical signal. */}}
 {{ $canonical := .Permalink }}
-{{ with .Params.canonical_url }}{{ $canonical = . }}{{ end }}
 {{ $socialImage := "" }}
 {{ with .Params.image }}{{ $socialImage = . | absURL }}{{ end }}
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
@@ -44,10 +46,9 @@
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">
 {{ end }}
 
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Fonts (self-hosted EB Garamond + Inter) -->
+<link rel="preload" as="font" type="font/woff2" href="{{ "fonts/SlGUmQSNjdsmc35JDF1K5GR1SDk_YAPI.woff2" | absURL }}" crossorigin>
+<link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}">
 
 <!-- Styles -->
 <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">

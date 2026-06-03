@@ -7,7 +7,7 @@ tags = []
 canonical_url = "https://nedwin.medium.com/there-is-no-show-business-commission-ae8b34f9a8f0"
 +++
 
-![Alec Baldwin & Jerry Seinfeld](https://cdn-images-1.medium.com/max/1024/1*50qZS9La-fdIY0-E8NS5wQ.png)
+![Alec Baldwin & Jerry Seinfeld](/images/posts/there-is-no-show-business-commission/50qZS9La-fdIY0-E8NS5wQ.png)
 
 In the latest season of Comedians in Cars Getting Coffee, Alec Baldwin talks about the Show Business Commission.
 

@@ -9,7 +9,7 @@ canonical_url = "https://medium.com/spritz/what-the-quickbooks-accounting-commun
 
 ### What Intuit ProAdvisors can learn about QuickBooks LIVE from the GoDaddy Pro launch
 
-![Claudell, the face of QuickBooks Live.](https://cdn-images-1.medium.com/max/1024/0*mUEZrj3ocMVZ2I35)
+![Claudell, the face of QuickBooks Live.](/images/posts/what-the-quickbooks-accounting-community-can-learn-from-godaddy-pro/mUEZrj3ocMVZ2I35.png)
 
 #### With QuickBooks [recent testing](https://www.accountingtoday.com/opinion/has-intuit-entered-the-bookkeeping-space) of an integrated bookkeeping service many accountants & bookkeepers have raised valid concerns about whether the platform they promote is about to compete with them.
 

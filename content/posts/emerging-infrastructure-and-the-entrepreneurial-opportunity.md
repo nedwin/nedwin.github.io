@@ -7,7 +7,7 @@ tags = []
 canonical_url = "https://nedwin.medium.com/emerging-infrastructure-and-the-entrepreneurial-opportunity-99817f9eba93"
 +++
 
-![](https://cdn-images-1.medium.com/max/1024/1*7dxhmfQzKPBY0uGt6RZ1Fw.jpeg)
+![](/images/posts/emerging-infrastructure-and-the-entrepreneurial-opportunity/7dxhmfQzKPBY0uGt6RZ1Fw.jpeg)
 
 Photo by [Jake Sloop](https://unsplash.com/photos/8ydJPhJVvto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/trains?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -23,7 +23,7 @@ Only back then they were quoted 48 hours to get any new hardware, and that was a
 
 The app grew to a million users in the first three months, scale which no consumer app had achieved before, especially not one built by a couple of guys out of a co-working space.
 
-![Kevin Systrom + Mike Krieger, the early years](https://cdn-images-1.medium.com/max/1024/0*hC2SWZe7ok7xoM1a.jpg)
+![Kevin Systrom + Mike Krieger, the early years](/images/posts/emerging-infrastructure-and-the-entrepreneurial-opportunity/hC2SWZe7ok7xoM1a.jpg)
 
 The only way they were able to keep the app online, and sustain their growth, was because they had [shifted all their hosting to AWS shortly after launch](https://www.wired.com/2015/10/five-years-of-building-instagram/). AWS allowed them to spin up new servers in seconds to accommodate the insatiable thirst from the new users pouring in from all across the planet.
 
@@ -49,7 +49,7 @@ In 2018 a new direct to consumer healthcare company for men launched called [Him
 
 In such a highly regulated field as healthcare this was no small feat. Medical marijuana companies had paved some of the way with services like Ease, but even they operated in a regulatory gray area.
 
-![Hims loves the high saturation photography.](https://cdn-images-1.medium.com/max/1024/0*YVE6Jd7jjYtwMN3Q.png)
+![Hims loves the high saturation photography.](/images/posts/emerging-infrastructure-and-the-entrepreneurial-opportunity/YVE6Jd7jjYtwMN3Q.png)
 
 Hims was able to launch in large part by leveraging the [TruePill](https://truepill.com) medication fulfillment API. This allowed them to focus on the customer experience and distribution instead of spending years of their lives in governmental red tape and logistics.
 
@@ -59,7 +59,7 @@ We launched [Spritz](https://spritz.works) late last year as a way to eliminate 
 
 The result feels like magic: no more expense reports, no more employees feeling like a line of credit to the business, and instant data for finance teams to be able to do their job.
 
-![Physical + virtual cards w/ Apple + Android Pay](https://cdn-images-1.medium.com/max/1024/1*I9VlcgxYx8tpUogNuPaAtA.jpeg)
+![Physical + virtual cards w/ Apple + Android Pay](/images/posts/emerging-infrastructure-and-the-entrepreneurial-opportunity/I9VlcgxYx8tpUogNuPaAtA.jpeg)
 
 Even 2 years earlier this would have been an incredibly challenging product to build, which would have required either forging a relationship with a bank, or getting our own banking license and carrying significant capital reserves.
 

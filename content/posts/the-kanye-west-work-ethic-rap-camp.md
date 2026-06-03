@@ -7,7 +7,7 @@ tags = []
 canonical_url = "https://nedwin.medium.com/the-kanye-west-work-ethic-rap-camp-73d4c7c409b0"
 +++
 
-![Kanye West @ the BET Awards in 2016](https://cdn-images-1.medium.com/max/1024/1*YzITuy9hHz9HyW-b7QyoVA.jpeg)
+![Kanye West @ the BET Awards in 2016](/images/posts/the-kanye-west-work-ethic-rap-camp/YzITuy9hHz9HyW-b7QyoVA.jpeg)
 
 In late 2009 Kanye West set himself up in a mansion in Hawaii to record one of the greatest albums of all times: My Beautiful Dark Twisted Fantasy.
 

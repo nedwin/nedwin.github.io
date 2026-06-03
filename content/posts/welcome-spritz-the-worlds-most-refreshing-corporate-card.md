@@ -11,7 +11,7 @@ canonical_url = "https://medium.com/spritz/welcome-spritz-the-worlds-most-refres
 
 Today I’m excited to launch Spritz: the world’s most refreshing corporate card.
 
-![](https://cdn-images-1.medium.com/max/1024/1*dfp4e8kJ6M-05m-5a61qAQ.png)
+![](/images/posts/welcome-spritz-the-worlds-most-refreshing-corporate-card/dfp4e8kJ6M-05m-5a61qAQ.png)
 
 Every company in the world has expenses but no one likes doing them. We’re here to change that.
 

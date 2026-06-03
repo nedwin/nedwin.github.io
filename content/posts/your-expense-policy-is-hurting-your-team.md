@@ -9,7 +9,7 @@ canonical_url = "https://medium.com/spritz/your-expense-policy-is-hurting-your-t
 
 ### Especially those who can least afford it.
 
-![](https://cdn-images-1.medium.com/max/1024/1*GeQB7auXXWyDSD3ez21lDg.jpeg)
+![](/images/posts/your-expense-policy-is-hurting-your-team/GeQB7auXXWyDSD3ez21lDg.jpeg)
 
 Photo by [Crawford Ifland](https://unsplash.com/photos/V2UpdUxiBWI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/san-francisco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 

@@ -7,7 +7,7 @@ tags = []
 canonical_url = "https://nedwin.medium.com/19-things-ive-done-28bf47fc3165"
 +++
 
-![“Can I call you back?” — me, circa 1987](https://cdn-images-1.medium.com/max/1024/1*oxIY2HN4lbKuMSzFYxr3Kg.png)
+![“Can I call you back?” — me, circa 1987](/images/posts/19-things-ive-done/oxIY2HN4lbKuMSzFYxr3Kg.png)
 
 Since I was a little kid I’ve always looked for ways to make a buck.
 
