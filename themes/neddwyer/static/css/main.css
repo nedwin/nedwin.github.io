@@ -144,6 +144,14 @@ hr {
 }
 
 /* === Hero (homepage) === */
+.hero .heroPhoto {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin: 0 0 28px;
+  object-fit: cover;
+  display: block;
+}
 .hero h1 {
   font-size: 48px;
   margin-bottom: 8px;
