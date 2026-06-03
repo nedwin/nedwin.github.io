@@ -2,7 +2,7 @@
 title = "Welcome Spritz — the world’s most refreshing corporate card"
 slug = "welcome-spritz-the-worlds-most-refreshing-corporate-card"
 date = 2018-11-19T18:01:01+00:00
-description = "Welcome Spritz — the world’s most refreshing corporate card Today I’m excited to launch Spritz: the world’s most refreshing corporate card. !https://cdn-images-1.medium.com/max/1024/1dfp4e8kJ6M-05m-5a..."
+description = "Today I'm excited to launch Spritz: the world's most refreshing corporate card. Every company in the world has expenses but no one likes doing them."
 tags = []
 canonical_url = "https://medium.com/spritz/welcome-spritz-the-worlds-most-refreshing-corporate-card-329e25244adb"
 +++

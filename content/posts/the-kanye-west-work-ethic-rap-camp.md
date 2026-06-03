@@ -2,7 +2,7 @@
 title = "The Kanye West Work Ethic @ Rap Camp"
 slug = "the-kanye-west-work-ethic-rap-camp"
 date = 2017-10-04T16:29:50+00:00
-description = "!Kanye West @ the BET Awards in 2016https://cdn-images-1.medium.com/max/1024/1YzITuy9hHz9HyW-b7QyoVA.jpeg In late 2009 Kanye West set himself up in a mansion in Hawaii to record one of the greatest al..."
+description = "In late 2009 Kanye West set himself up in a mansion in Hawaii to record one of the greatest albums of all times: My Beautiful Dark Twisted Fantasy."
 tags = []
 canonical_url = "https://nedwin.medium.com/the-kanye-west-work-ethic-rap-camp-73d4c7c409b0"
 +++

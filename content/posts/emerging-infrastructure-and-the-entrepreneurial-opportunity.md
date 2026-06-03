@@ -2,7 +2,7 @@
 title = "Emerging infrastructure and the entrepreneurial opportunity"
 slug = "emerging-infrastructure-and-the-entrepreneurial-opportunity"
 date = 2019-04-12T15:01:16+00:00
-description = "!https://cdn-images-1.medium.com/max/1024/17dxhmfQzKPBY0uGt6RZ1Fw.jpeg Photo by Jake Sloophttps://unsplash.com/photos/8ydJPhJVvto?utmsource=unsplash&utmmedium=referral&utmcontent=creditCopyText on Uns..."
+description = "Less than 10 years ago one of the first steps in launching your web or mobile app was buying and setting up your own dedicated hardware in a back room or remote server farm."
 tags = []
 canonical_url = "https://nedwin.medium.com/emerging-infrastructure-and-the-entrepreneurial-opportunity-99817f9eba93"
 +++

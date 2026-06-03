@@ -2,7 +2,7 @@
 title = "Seed Stage Investor Update Template"
 slug = "seed-stage-investor-update-template"
 date = 2022-08-04T17:51:40+00:00
-description = "Every month I write an update to our investors and advisors. I’ve been doing this since before Great Questionhttps://greatquestion.co was a company, before we wrote any lines of code. And almost every..."
+description = "Every month I write an update to our investors and advisors. I've been doing this since before Great Question was a company, before we wrote any lines of code."
 tags = []
 canonical_url = "https://nedwin.medium.com/seed-stage-investor-update-template-978fe0107d05"
 +++

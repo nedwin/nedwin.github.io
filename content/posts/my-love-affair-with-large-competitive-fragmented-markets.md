@@ -2,7 +2,7 @@
 title = "My love affair with large, competitive, fragmented markets"
 slug = "my-love-affair-with-large-competitive-fragmented-markets"
 date = 2018-08-22T16:50:09+00:00
-description = "Benedict Evans on Twitter The Startup Fork: If it doesn't look like something we already have, the problem doesn't exist. If it does, the problem's already solved. It’s easy to think all the good star..."
+description = "It's easy to think all the good startup problems in B2B SAAS have already been solved."
 tags = []
 canonical_url = "https://nedwin.medium.com/my-love-affair-with-large-competitive-fragmented-markets-8dc124238ba2"
 +++

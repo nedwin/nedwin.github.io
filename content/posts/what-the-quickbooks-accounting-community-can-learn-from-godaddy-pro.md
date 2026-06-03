@@ -2,7 +2,7 @@
 title = "What the Quickbooks Accounting community can learn from GoDaddy Pro"
 slug = "what-the-quickbooks-accounting-community-can-learn-from-godaddy-pro"
 date = 2019-02-28T16:27:24+00:00
-description = "What Intuit ProAdvisors can learn about QuickBooks LIVE from the GoDaddy Pro launch !Claudell, the face of QuickBooks Live.https://cdn-images-1.medium.com/max/1024/0mUEZrj3ocMVZ2I35 With QuickBooks re..."
+description = "With QuickBooks recent testing of an integrated bookkeeping service many accountants & bookkeepers have raised valid concerns about whether the platform they promote is about to compete with them."
 tags = []
 canonical_url = "https://medium.com/spritz/what-the-quickbooks-accounting-community-can-learn-from-godaddy-pro-383ce6105dbf"
 +++

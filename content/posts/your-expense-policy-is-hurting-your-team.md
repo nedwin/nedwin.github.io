@@ -2,7 +2,7 @@
 title = "Your expense policy is hurting your team"
 slug = "your-expense-policy-is-hurting-your-team"
 date = 2019-03-07T19:17:07+00:00
-description = "Especially those who can least afford it. !https://cdn-images-1.medium.com/max/1024/1GeQB7auXXWyDSD3ez21lDg.jpeg Photo by Crawford Iflandhttps://unsplash.com/photos/V2UpdUxiBWI?utmsource=unsplash&utmm..."
+description = "For most companies their expense policy is an afterthought. It starts off informally."
 tags = []
 canonical_url = "https://medium.com/spritz/your-expense-policy-is-hurting-your-team-c6dca4100383"
 +++

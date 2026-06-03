@@ -2,7 +2,7 @@
 title = "There is no Show Business Commission"
 slug = "there-is-no-show-business-commission"
 date = 2018-08-06T19:39:44+00:00
-description = "!Alec Baldwin & Jerry Seinfeldhttps://cdn-images-1.medium.com/max/1024/150qZS9La-fdIY0-E8NS5wQ.png In the latest season of Comedians in Cars Getting Coffee, Alec Baldwin talks about the Show Business..."
+description = "In the latest season of Comedians in Cars Getting Coffee, Alec Baldwin talks about the Show Business Commission."
 tags = []
 canonical_url = "https://nedwin.medium.com/there-is-no-show-business-commission-ae8b34f9a8f0"
 +++

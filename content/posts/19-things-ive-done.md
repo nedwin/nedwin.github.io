@@ -2,7 +2,7 @@
 title = "19 Things I’ve Done"
 slug = "19-things-ive-done"
 date = 2017-09-03T20:21:43+00:00
-description = "!“Can I call you back?” — me, circa 1987https://cdn-images-1.medium.com/max/1024/1oxIY2HN4lbKuMSzFYxr3Kg.png Since I was a little kid I’ve always looked for ways to make a buck. In primary school I re..."
+description = "Since I was a little kid I've always looked for ways to make a buck."
 tags = []
 canonical_url = "https://nedwin.medium.com/19-things-ive-done-28bf47fc3165"
 +++
