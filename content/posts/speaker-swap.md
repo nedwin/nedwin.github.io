@@ -4,7 +4,10 @@ slug = "speaker-swap"
 date = 2026-06-06T00:00:00+00:00
 description = "You can learn a lot about AI from white papers and blogs. You can't learn it all that way. So we started bringing people deep in the AI weeds in to teach our team, then sending our own people out to do the same. The speaker swap, and how to run your own."
 tags = ["ai-native"]
+image = "/images/posts/speaker-swap/dna-double-helix.jpg"
 +++
+
+![A glowing blue DNA double helix](/images/posts/speaker-swap/dna-double-helix.jpg)
 
 There's a huge amount you can learn about becoming AI-native on your own. The labs' white papers, blogs like Simon Willison's, the better parts of AI-pilled Twitter. I've read a pile of it, and a lot of it is excellent. But at some point you hit a ceiling. Because reading about how someone works isn't the same as watching them do it and being able to ask why, and how this applies to your specific circumstance if at all.
 
