@@ -9,6 +9,8 @@ image = "/images/posts/speaker-swap/dna-double-helix.jpg"
 
 ![A glowing blue DNA double helix](/images/posts/speaker-swap/dna-double-helix.jpg)
 
+If you want to fast-track your way to being a state-of-the-art AI-first team, the best thing you can be doing is bringing in AI-pilled guest speakers to indoctrinate your team.
+
 There's a huge amount you can learn about becoming AI-native on your own. The labs' white papers, blogs like Simon Willison's, the better parts of AI-pilled Twitter. I've read a pile of it, and a lot of it is excellent. But at some point you hit a ceiling. Because reading about how someone works isn't the same as watching them do it and being able to ask why, and how this applies to your specific circumstance if at all.
 
 So as we've tried to push our whole company through an AI transformation, we went looking for the next best thing. Someone who's actually deep in the weeds, possibly all the way into AI psychosis, and putting them in front of our team showing what's really possible. In human form, in the room, taking questions.
