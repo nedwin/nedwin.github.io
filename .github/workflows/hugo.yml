@@ -3,6 +3,10 @@ name: Build & deploy Hugo site
 on:
   push:
     branches: [source]
+  schedule:
+    # Daily 14:00 UTC (~07:00 PT). Rebuilds the site so future-dated posts
+    # auto-publish on their date (WordPress-style scheduling for a static site).
+    - cron: "0 14 * * *"
   workflow_dispatch:
 
 permissions:
