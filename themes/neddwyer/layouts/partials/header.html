@@ -2,6 +2,7 @@
 {{ $isAbout := eq .RelPermalink "/about/" }}
 {{ $isNow := eq .RelPermalink "/now/" }}
 {{ $isElsewhere := eq .RelPermalink "/elsewhere/" }}
+{{ $isFriends := eq .RelPermalink "/friends/" }}
 <nav class="topNav" aria-label="Primary">
   <a href="{{ "/" | absURL }}" class="brand">Ned Dwyer</a>
   <span class="links">
@@ -9,5 +10,6 @@
     <a href="{{ "/about/" | absURL }}"{{ if $isAbout }} class="active" aria-current="page"{{ end }}>About</a>
     <a href="{{ "/now/" | absURL }}"{{ if $isNow }} class="active" aria-current="page"{{ end }}>Now</a>
     <a href="{{ "/elsewhere/" | absURL }}"{{ if $isElsewhere }} class="active" aria-current="page"{{ end }}>Elsewhere</a>
+    <a href="{{ "/friends/" | absURL }}"{{ if $isFriends }} class="active" aria-current="page"{{ end }}>Friends</a>
   </span>
 </nav>
