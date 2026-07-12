@@ -9,7 +9,7 @@ summaryLength = 30
 
 [params]
   author = "Ned Dwyer"
-  description = "Australian in San Francisco. Co-founder of Great Question. Writing about rejection, runway, and the long middle of building things."
+  description = "Australian in San Francisco. Co-founder of Great Question. Writing about product development, AI transformation, and founder life."
   accent = "#e15554"
   email = "ned@greatquestion.co"
   twitter = "nedwin"
