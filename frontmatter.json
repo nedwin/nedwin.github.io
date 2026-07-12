@@ -1,0 +1,45 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.content.draftField": {
+    "name": "draft",
+    "type": "boolean"
+  },
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Posts",
+      "path": "[[workspace]]/content/posts",
+      "excludeSubdir": false
+    },
+    {
+      "title": "Working drafts",
+      "path": "[[workspace]]/content-drafts",
+      "excludeSubdir": false
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "post",
+      "pageBundle": false,
+      "template": "[[workspace]]/.frontmatter/templates/post.md",
+      "fields": [
+        { "title": "Title", "name": "title", "type": "string" },
+        { "title": "Slug", "name": "slug", "type": "string" },
+        { "title": "Publishing date", "name": "date", "type": "datetime", "default": "{{now}}" },
+        {
+          "title": "Description (the hook shown on the Writing index)",
+          "name": "description",
+          "type": "string",
+          "multiline": true
+        },
+        { "title": "Tags", "name": "tags", "type": "tags" },
+        { "title": "Header image", "name": "image", "type": "image", "isPreviewImage": true },
+        { "title": "Canonical URL (if republished)", "name": "canonical_url", "type": "string" },
+        { "title": "Draft", "name": "draft", "type": "boolean", "default": true }
+      ]
+    }
+  ]
+}
