@@ -14,7 +14,10 @@
     {{ $posts := where .Site.RegularPages.ByDate.Reverse "Section" "posts" }}
     {{ range first 8 $posts }}
       <li>
-        <a href="{{ .RelPermalink }}" class="postTitle">{{ .Title }}</a>
+        <div class="postMain">
+          <a href="{{ .RelPermalink }}" class="postTitle">{{ .Title }}</a>
+          {{ with .Description }}<p class="postDesc">{{ . }}</p>{{ end }}
+        </div>
         {{ if not .Date.IsZero }}<span class="postDate">{{ .Date.Format "Jan 2006" }}</span>{{ end }}
       </li>
     {{ end }}
