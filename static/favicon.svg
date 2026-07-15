@@ -4,11 +4,11 @@
   <rect width="512" height="512" rx="96" fill="#fffaf7"/>
   <text
     x="256"
-    y="354"
+    y="429"
     text-anchor="middle"
     fill="#1a1a1a"
     font-family="EB Garamond, Georgia, serif"
-    font-size="360"
+    font-size="500"
     font-weight="600">n</text>
-  <circle cx="371" cy="142" r="28" fill="#e15554"/>
+  <circle cx="408" cy="103" r="48" fill="#e15554"/>
 </svg>
