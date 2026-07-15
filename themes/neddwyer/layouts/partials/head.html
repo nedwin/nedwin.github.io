@@ -54,7 +54,10 @@
 <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
 
 <!-- Favicon -->
-<link rel="icon" type="image/png" href="{{ "favicon.png" | absURL }}">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | absURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | absURL }}">
+<meta name="theme-color" content="{{ .Site.Params.accent }}">
 
 {{ if hugo.IsProduction -}}
 <meta name="robots" content="index, follow">
