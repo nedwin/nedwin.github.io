@@ -13,7 +13,7 @@ If you want to fast-track your way to being a state-of-the-art AI-first team, th
 
 There's a huge amount you can learn about becoming AI-native on your own. The labs' white papers, blogs like Simon Willison's, the better parts of AI-pilled Twitter. I've read a pile of it, and a lot of it is excellent. But at some point you hit a ceiling. Because reading about how someone works isn't the same as watching them do it and being able to ask why, and how this applies to your specific circumstance if at all.
 
-So as we've tried to push our whole company through an AI transformation, we went looking for the next best thing. Someone who's actually deep in the weeds, possibly all the way into AI psychosis, and putting them in front of our team showing what's really possible. In human form, in the room, taking questions.
+So as we've tried to push our whole company to work AI-first, we went looking for the next best thing. Someone who's actually deep in the weeds, possibly all the way into AI psychosis, and putting them in front of our team showing what's really possible. In human form, in the room, taking questions.
 
 That's what we started doing. We call it a speaker swap.
 
@@ -27,13 +27,13 @@ And he wasn't on a stage. There was nothing performative about it, because it wa
 
 And the team walked away pumped at the possibilities, ready to try it all out for themselves.
 
-## What it is
+## Real workflows, both directions
 
-The idea is simple. We bring people into Great Question who have a different relationship with AI than we do. Sometimes they're miles ahead, occasionally they're a step behind, sometimes they're at exactly our stage, and you often can't tell which stage they're at until they're in the room. Either way they're showing real workflows, real tools, real wins and real dead ends, live, with time for the team to dig in. It gives us a human version of someone going through this same transformation, which makes it much easier to work out where we actually sit on the journey.
+We bring people into Great Question who have a different relationship with AI than we do. Sometimes they're miles ahead, occasionally they're a step behind, sometimes they're at exactly our stage, and you often can't tell which stage they're at until they're in the room. Either way they're showing their actual workflows and tools, including the stuff that didn't work, live, with time for the team to dig in. Watching someone else in the middle of the same change makes it much easier to work out where we actually are.
 
-Then we return the favour. Someone from our team goes and gives the same kind of talk at another company, fields their questions, and that company sends someone back to us. It's a swap[^merry-go-round], not a guest lecture.
+Then we return the favour. Someone from our team goes and gives the same kind of talk at another company, fields their questions, and that company sends someone back to us. That's the swap part.[^merry-go-round]
 
-## Why we do it
+## You can't learn it from reading
 
 You can't become AI-native from reading blog posts, the same way you can't learn to cook or surf from reading books about it. You need to watch someone do it, ask them questions, and have them show you what it actually means in practice.
 
@@ -41,11 +41,11 @@ That's doubly true when the state of the art moves every week. What was cutting 
 
 A swap also lets us cut through the crap. Plenty of people out there have good reasons to sell you their book, and plenty more are doing things that just don't apply to a company like ours. Getting them in a room where we can interrogate it is the fastest way to tell the snake oil from the real thing, and to get to the real thing quickly.
 
-## What we considered instead
+## Why not just hire for it
 
 The obvious alternative is to hire it in. Bring on more applied AI engineers with a broader range of backgrounds than we have on the team, folks who already work this way. First of all that takes months, second you don't really know what you're getting until they start, and finally it's one person with one point of view. Hire ten and you'd get more coverage, but now it's enormously expensive and you've still boxed yourself into ten people who mostly think alike.
 
-The swaps gave us a much broader spectrum, fast. We've had founders, VPs of engineering, UX researchers who moonlight as product builders, hobbyists, and engineering managers come through. One of them had vibe-coded something that looked a lot like a piece of our own product, which told us more about where the competitive threat comes from than any teardown would. No single hire can give you that range, let alone that quickly.
+The swaps gave us a much broader spectrum, fast. We've had founders, VPs of engineering, UX researchers who moonlight as product builders, hobbyists, and engineering managers come through. One of them had vibe-coded something that looked a lot like a piece of our own product, which told us more about where the competitive threat comes from than any teardown would.
 
 ## How to run one
 

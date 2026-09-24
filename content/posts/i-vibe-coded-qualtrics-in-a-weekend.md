@@ -21,13 +21,11 @@ People are calling it the SaaS-pocalypse.
 
 The macro version of this fear is real, and the markets have already voted. In early 2026 something like $285 billion got wiped off software stocks in a week, and by some counts close to $2 trillion has come off the sector since. The [iShares software ETF had its worst stretch since 2008](https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html). [Forrester wrote a blog literally titled "SaaS As We Know It Is Dead."](https://www.forrester.com/blogs/saas-as-we-know-it-is-dead-how-to-survive-the-saas-pocalypse/) The logic is simple and a bit scary: if AI agents do the work of ten people, you stop paying for ten seats. Per-seat SaaS, the most reliable business model of the last fifteen years, suddenly looks fragile.
 
-And it isn't just the seat math. It's the build math too. [Retool's 2026 Build vs. Buy report](https://www.businesswire.com/news/home/20260217548274/en/Retools-2026-Build-vs.-Buy-Report-Reveals-35-of-Enterprises-Have-Already-Replaced-SaaS-With-Custom-Software) found that 35% of enterprises have already replaced at least one SaaS tool with something they built themselves, and 78% expect to build more this year. Sixty percent of them did it outside any IT oversight. Every renewal now comes with a new line in the conversation: *could we just build this?*
+The seat math is only half of it. The build math is worse. [Retool's 2026 Build vs. Buy report](https://www.businesswire.com/news/home/20260217548274/en/Retools-2026-Build-vs.-Buy-Report-Reveals-35-of-Enterprises-Have-Already-Replaced-SaaS-With-Custom-Software) found that 35% of enterprises have already replaced at least one SaaS tool with something they built themselves, and 78% expect to build more this year. Sixty percent of them did it outside any IT oversight. Every renewal now comes with a new line in the conversation: *could we just build this?*
 
 I'm not going to tell you that's all hype. I felt it on that Sunday. The barrier to a working V1 of almost anything has basically gone to zero.
 
 ## We're watching it happen to us
-
-Here's the part that makes this personal rather than theoretical.
 
 We sell a research platform: a CRM of the people you can talk to, a repository of everything you've ever learned from them, and the tools to run studies in between. And we're now, regularly, watching customers vibe code chunks of exactly that.
 
@@ -51,7 +49,7 @@ The next layer down is the AI and infrastructure that makes the product genuinel
 
 Then there's the bottom layer. The corporate software they run *on*. Their CRM. Their payroll. Their research stack. And here the answer flips. Is Brex going to vibe code Salesforce? Are they going to vibe code their own payroll? Are they going to rebuild a research CRM and repository, given everything else they could point that engineering at? No. Even though they absolutely could. The interesting tell: Brex has tried building pieces of this in the past, and every time they've concluded it wasn't a good fit.
 
-The layers are the whole point. The closer something sits to the thing your customers actually pay you for, the more it makes sense to own it. The further away it sits, the more building it is just a tax you've volunteered to pay.
+So the rule is basically distance from the product. The closer something sits to the thing your customers actually pay you for, the more it makes sense to own it. The further away it sits, the more building it is just a tax you've volunteered to pay.
 
 ## Does it make your beer taste better?
 
@@ -69,19 +67,19 @@ Amazon says the same thing in fewer words when they talk about not spending engi
 
 ## The part nobody vibe codes
 
-Here's what my Sunday Qualtrics didn't have, and what every weekend build is quietly missing.
+My Sunday Qualtrics was missing the same things every weekend build is missing.
 
 It worked for one person. Me. The moment a second person needs to log in, you need auth, roles, and permissions. The moment a teammate wants to change something, you need code review and a way to ship safely. The moment the server falls over at 11pm, somebody has to be on call. The moment you go on holiday, either you've documented enough that it keeps running or you're answering Slack from the beach. Anyone can plant a tomato. Keeping the garden alive through February is the actual job, and nobody posts about that part.
 
 And that's before anyone asks the trust questions. Want to put real customer data in your weekend build? Then you're signing up for SOC 2, a pen test, GDPR handling, HIPAA controls if you touch anything clinical, PII tagging and retention, SSO, audit logs your own customers can export, vendor security reviews, disaster recovery. 
 
-Open-source survey tools have existed for twenty years. So have open-source CRMs and help desks. Almost no serious company runs them, and not because they couldn't stand one up in an afternoon. The tool was always the cheap part. Vibe coding made the tool free. It didn't make the trust free.
+Open-source survey tools have existed for twenty years. So have open-source CRMs and help desks. Almost no serious company runs them, and not because they couldn't stand one up in an afternoon. Standing up the tool was never the expensive bit, and vibe coding made it free. The trust still costs what it always did.
 
 The version I keep coming back to is a question I'd put to anyone tempted: when it breaks, whose neck gets rung? When you need to send a survey to two million people and it falls over, who do you call? When someone wants to change it, who decides if that change ships? When you get hacked, is it the one person who built it on a Sunday, and what happens when they're on vacation? Add it all up and you haven't built a tool. You've started a department. You're now in the business of running survey software, which is a strange business to be in if you sell expense cards, or apartments, or insurance.
 
 ## A rubric: build, buy, or partner
 
-So when *should* you build? It's not never. It's a spectrum, and the honest answer depends on a handful of questions you can ask in about thirty seconds.
+So when *should* you build? Sometimes, and it depends on a handful of questions you can ask in about thirty seconds.
 
 A quick note on the language. "Build vs buy vs partner" is borrowed from how companies think about acquisitions, which isn't quite what we're talking about here. We're really talking about a vendor relationship and how much of it you want to own. Think of it as a dial that runs from *do it yourself* to *rent it* to *go deep with someone who'll build it with you.*
 
@@ -104,7 +102,7 @@ I'm not going to ship my Sunday Qualtrics. It's tempting, and I could absolutely
 
 I will however use it as a symbol for what is possible, and as inspiration for how we might support significantly more study types at Great Question. But shipping it holus bolus? No.
 
-The SaaS-pocalypse crowd is half right. A lot of thin, undifferentiated, per-seat software is about to have a very bad few years. And to be honest it deserves to. The barrier to building a V1 of it has collapsed, and customers will absolutely build the easy 80%. But the gap between a working V1 and something a whole company can actually rely on, securely, for years, hasn't collapsed at all. If anything it's the last thing standing, and it's exactly where the value is moving.
+The SaaS-pocalypse crowd is half right. A lot of thin, undifferentiated, per-seat software is about to have a very bad few years. Some of it deserves to. The barrier to building a V1 of it has collapsed, and customers will absolutely build the easy 80%. But the gap between a working V1 and something a whole company can actually rely on, securely, for years, hasn't collapsed at all.
 
 So before you spend a quarter rebuilding something you could rent, ask the question. Does this make your beer taste better? If the answer is no, you're not saving money by building it. You're paying twice. Once for the build, and again for every hour you spend keeping it alive instead of making the thing your customers actually came for.
 
